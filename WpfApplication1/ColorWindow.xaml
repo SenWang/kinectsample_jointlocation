@@ -1,0 +1,10 @@
+﻿<Window x:Class="WpfApplication1.ColorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ColorWindow" Width="640" Height="500">
+    <StackPanel>
+        <TextBlock x:Name="LeftHandMessage">左手</TextBlock>
+        <TextBlock x:Name="RightHandMessage">左手</TextBlock>
+        <Image x:Name="ColorData"/>
+    </StackPanel>
+</Window>
